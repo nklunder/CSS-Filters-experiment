@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "MEgalopolis Extra";
+  src: url("../fonts/MEgalopolisExtra.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Yanone Kaffeesatz";
+  src: url("../YanoneKaffeesatz-Bold.woff") format("woff");
+}
+
+html {
+  background-color: black;
+  min-height: 100%;
+  position: relative;
+  font-variant-ligatures: common-ligatures;
+  -moz-font-feature-settings: "dlig", "liga";
+  -webkit-font-feature-settings: "dlig", "liga";
+  font-feature-settings: "dlig", "liga";
+}
+
+a {
+  color: #faff45;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #b3b732;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  width: 100%;
+  overflow-x: hidden;
+  min-height: 10em;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+  margin: 5em 0 1.6em 0;
+  font-family: "MEgalopolis Extra";
+  line-height: 0.9;
+}
+
+/* Heading font sizing */
+.line1 {
+  font-size: 8vw;
+}
+
+.line2 {
+  font-size: 13.4vw;
+}
+
+.line3 {
+  font-size: 8.8vw;
+  font-family: "Yanone Kaffeesatz";
+  color: #faff45;
+}
+
+h1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Fallback for Firefox */
+  filter: url("../resources.svg#blurEffect");
+  -webkit-filter: blur(10px);
+}
+
+p {
+  font-size: 1.4em;
+  line-height: 1.6;
+  border-radius: 0.5em;
+  margin: auto;
+  padding: 1em;
+  width: 75%;
+  background: black;
+  background: rgba(0,0,0,0.4);
+}
