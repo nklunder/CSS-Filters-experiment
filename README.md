@@ -4,6 +4,7 @@ Project to get acquainted with CSS filters and font features. Incorporated SVG f
 
 Resources used:
 
+* [CodePen full-bleed backgrounds](http://codepen.io/atelierbram/pen/LyoEv)
 * [MDN CSS filter page](https://developer.mozilla.org/en-US/docs/Web/CSS/filter)
 * [OTF to WOFF font converter](http://everythingfonts.com/otf-to-woff)
 * [MEgalopolis Extra font](http://www.smeltery.net/fonts/megalopolis-extra)
